@@ -4,7 +4,7 @@ var passport = require('passport');
 var router = express.Router();
 
 router.post('/',
-  passport.authenticate('local',),
+  passport.authenticate('local', {failureFlash: true}),
   function(req, res) {
     res.send(200);
   });
