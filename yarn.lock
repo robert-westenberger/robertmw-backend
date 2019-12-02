@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.11.tgz#bec2961975888d964196bf0016a2f984d793d3ce"
   integrity sha512-O+x6uIpa6oMNTkPuHDa9MhMMehlxLAd5QcOvKRjAFsBVpeFWTOPnXbDvILvFgFFZfQ1xh1EZi1FbXxUix+zpsQ==
 
+"@wiris/mathtype-tinymce5@^7.17.0":
+  version "7.17.0"
+  resolved "https://registry.yarnpkg.com/@wiris/mathtype-tinymce5/-/mathtype-tinymce5-7.17.0.tgz#b3eaaa69ee5ca8b96b9d56a0b675b1cde2c43383"
+  integrity sha512-iCk3qowtCzn3doOmA9blEmmYptzX2jBFcjdNkvgmle5Qi51wOK0GgDZiAehGodIvsOAIvn/G/m87SbLsX5TKCA==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"

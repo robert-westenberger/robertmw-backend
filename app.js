@@ -80,6 +80,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/public/javascripts', express.static(__dirname + '/node_modules/@wiris/mathtype-tinymce5/'));
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

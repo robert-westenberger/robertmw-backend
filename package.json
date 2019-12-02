@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@wiris/mathtype-tinymce5": "^7.17.0",
     "bcrypt": "3.0.7",
     "connect-pg-simple": "^6.0.1",
     "cookie-parser": "1.4.4",
